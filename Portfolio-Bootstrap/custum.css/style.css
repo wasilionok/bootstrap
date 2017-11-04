@@ -55,8 +55,17 @@ section{
     color: #fff;
 }
 #main-header .header-inner h1{
-    font-family: 
-    
+    font-weight: 100i;
+    font-family: 'Lato';
+    font-size: 30px;
+}
+   
+#main-header .header-inner h2{
+    font-weight: 900;
+    font-family: 'Lato';
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 50px;
 }
 
 .btn{
@@ -64,4 +73,5 @@ section{
     border: none;
     cursor: pointer;
     text-transform: uppercase;
-}
+    font-family: 'Lato';
+    
