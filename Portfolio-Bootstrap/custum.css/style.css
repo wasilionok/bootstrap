@@ -230,9 +230,9 @@ font-family: "Montserrat", sans-serif;
 
 /*sectrion contact*/
 #contact{
-/*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),url())*/
-    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(204,204,204,0.4)),url(../img/img/footer/world-map.jpg);
-}
+     background-image: linear-gradient(rgba(255,255,244,0.5),rgba(204,204,204,0.6)), url(../img/img/footer/world-map.jpg);
+   
+} 
 
 #contact .section-header,
 #contact .section-header .section-title{
@@ -277,6 +277,32 @@ font-family: "Montserrat", sans-serif;
 }
 
 /*sectioncontact end*/
+
+
+/*footer*/
+#main-footer{
+    padding: 20px 0;
+    top: 20px;
+}
+#main-footer .copyright,
+#main-footer .footer-nav{
+    line-height: 50px;
+}
+
+#main-footer .footer-nav .footer-nav-item{
+    display: inline-block;
+    margin-right: 10px;
+}
+#main-footer.footer-nav .footer-nav-item a{
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all .3s;
+}
+#main-footer .footer-nav .footer-nav-item a:hover{
+    color: #0ed8d6;
+}
+
 
 
 
