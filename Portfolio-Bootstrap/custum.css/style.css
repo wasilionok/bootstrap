@@ -6,6 +6,35 @@ body{
 section{
     padding: 60px 0;
 }
+
+section .section-header {
+    width: 100%;
+    text-align: center;
+}
+
+section .section-header .section-title{ 
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 25px; 
+
+}
+
+section .section-header .section-caption{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    
+}
+
+
+section h3{
+font-family: "Montserrat", sans-serif;
+   font-size: 0.9em;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #main-nav{ opacity: 0.8;}
     
 .navbar-expand-lg .navbar-nav .nav-item{padding-right: 2.5rem;}
@@ -21,7 +50,7 @@ section{
     text-transform: uppercase;
     font-family: 'Montserrant', sans-serif;
     text-decoration: none;
-    tr
+    
 }
 
 #main-nav .nav-item a:hover{
@@ -74,4 +103,184 @@ section{
     cursor: pointer;
     text-transform: uppercase;
     font-family: 'Lato';
+}
     
+/*   service */
+    
+.services{
+    text-align: center;
+    display: block;
+}
+.services figure .rounded{
+    font-family: 'Montserrant', sans-serif;
+    font-family: cursive;
+    color: red;
+}
+
+.services figure{
+    background-color: #0ed8d6;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 125px;
+    color: white;
+    transition: all 2s;
+    border: 1px solid #0ed8d6;
+}
+.services figure:hover{
+   color: #0ed8d6;
+    background-color: #fff;
+    transform: rotate(360deg);
+}
+
+#portfolio{
+    background-color: #f7f7f7;
+}
+#portfolio .portfolio-item{
+    background-color: #fff;
+}
+
+#portfolio .portfolio-image{
+    overflow: hidden;
+}
+#portfolio .portfolio-item .portfolio-image-background{
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all .3s;
+    
+}
+#portfolio .portfolio-item .portfolio-image-mask{
+    background-color: rgba(14, 216,214, 0.85);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s;
+    color: #fff;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio .portfolio-item figcaption{
+    padding: 15px;
+}
+
+
+#portfolio .portfolio-item .portfolio-image-background:hover{
+    transform: scale(1.5);
+}
+#portfolio .portfolio-item .portfolio-image-background:hover .portfolio-image-mask{
+    opacity: 1;
+}
+.img-circle{
+    width: 100%;
+    border-radius: 50%;
+}
+.social-link{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #222;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 1.8em;
+    color: #fff;
+    transition: all .3s;
+    margin: 5px;
+    display: inline-block;
+    
+}
+.social-link:hover{
+    background-color: #0ed8d6;
+    border: 1px solid  #0ed8d6;
+    color: #fff;
+}
+
+
+#portfolio-image-backgraund-1{
+    background-image: url(../img/img/portfolio/box_of_cookies.jpg);
+}
+#portfolio-image-backgraund-2{
+    background-image: url(../img/img/portfolio/chaotic_paint.jpg);
+}
+#portfolio-image-backgraund-3{
+    background-image: url(../img/img/portfolio/chestnut_on_bracket.jpg);
+}
+#portfolio-image-backgraund-4{
+    background-image: url(../img/img/portfolio/child_with_blue_paint.jpg);
+}
+#portfolio-image-backgraund-5{
+    background-image: url(../img/img/portfolio/house_with_blue_doors.jpg);
+}
+#portfolio-image-backgraund-6{
+    background-image: url(../img/img/portfolio/typing_on_laptop.jpg);
+}
+
+
+
+#team .team-description{
+    margin-top: 40px;
+}
+
+
+
+/*sectrion contact*/
+#contact{
+/*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),url())*/
+    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(204,204,204,0.4)),url(../img/img/footer/world-map.jpg);
+}
+
+#contact .section-header,
+#contact .section-header .section-title{
+    color: #fff;
+}
+#contact .contact-form .contact-form-column{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#contact input,
+#contact textarea{
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+
+#contact input:not([type='submit']),
+#contact textarea{
+    border: 0px solid;
+}
+
+#contact textarea{
+    height: 100%;
+}
+#contact input[type='submit']{
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    color: #fff;
+    transition: all .3s;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#contact input[type='submit']:hover{
+    background-color: #fff;
+    border: 1px solid #0ed8d6;
+    color: #0ed8d6;
+}
+
+/*sectioncontact end*/
+
+
+
+
+
+
+
