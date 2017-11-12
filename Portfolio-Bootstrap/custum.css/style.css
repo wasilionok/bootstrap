@@ -107,17 +107,17 @@ font-family: "Montserrat", sans-serif;
     
 /*   service */
     
-.services{
+#services{
     text-align: center;
     display: block;
 }
-.services figure .rounded{
+#services figure .rounded{
     font-family: 'Montserrant', sans-serif;
     font-family: cursive;
     color: red;
 }
 
-.services figure{
+#services figure{
     background-color: #0ed8d6;
     display: inline-block;
     width: 100px;
@@ -127,7 +127,7 @@ font-family: "Montserrat", sans-serif;
     transition: all 2s;
     border: 1px solid #0ed8d6;
 }
-.services figure:hover{
+#services figure:hover{
    color: #0ed8d6;
     background-color: #fff;
     transform: rotate(360deg);
